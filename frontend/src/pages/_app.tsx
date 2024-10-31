@@ -94,6 +94,7 @@ function App({ Component, pageProps }: AppProps) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
+        <link rel="stylesheet" href="/img/custom.style.css" />
       </Head>
       <IntlProvider
         messages={i18nUtil.getLocaleByCode(language.current)?.messages}
